@@ -1,0 +1,21 @@
+nav {
+  margin: 10px auto;
+}
+
+a:link,
+a:visited {
+  color: #8e8e8e;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: all 0.1s ease-out;
+}
+
+a:hover,
+a:active {
+  color: #2c5364;
+}
+
+a.active {
+  color: #fafafa;
+  text-decoration: underline;
+}
